@@ -1,0 +1,31 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+vendor/
+composer.phar
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp
+*.bak
+*~
+.phpunit.result.cache
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Claude Code: personal settings stay local; the shared settings.json is committed
+.claude/settings.local.json

@@ -1,0 +1,14 @@
+.stack {
+    display: grid;
+    gap: 0.4rem;
+    max-width: 20rem;
+    margin-bottom: 1.5rem;
+}
+
+.error {
+    color: #b00020;
+}
+
+.notice {
+    color: #1b5e20;
+}
